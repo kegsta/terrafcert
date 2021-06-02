@@ -1,7 +1,7 @@
 provider "aws" {
-  region = "ap-soputheast-2"
+  region = "ap-southeast-2"
 }
 
-resource "aws_ vpc" "kegsvpc" {
+resource "aws_vpc" "kegsvpc" {
   cidr = "10.0.0.0/16"
 }
